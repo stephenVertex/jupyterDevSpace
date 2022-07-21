@@ -1,4 +1,5 @@
 FROM devfactory/workspace-full:latest
 
-RUN apt update && apt install screenfetch
-RUN pip3 install jupyterlab
+RUN sudo apt update && sudo apt install -y screenfetch
+RUN pip3 install --upgrade pip
+RUN pip3 install jupyterlab numpy pandas tensorflow
