@@ -5,6 +5,7 @@ image:
 tasks:
   - init: echo 'Install pre-requisites' # runs during prebuild
     command: jupyter-lab --ServerApp.token="" --ServerApp.ip="0.0.0.0" --ServerApp.allow_origin="*"
+  - command: ./printJupyterURL.sh
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
 ports:
   - port: 8888
