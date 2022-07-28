@@ -21,3 +21,5 @@ That can be done as follows.
 ![Set kernel](./imgs/set-kernel.gif)
 
 You can then work in directly from DevSpaces and not the second browser tab.
+
+*NOTE:* At present, the Jupyter VSCode Extension only works for x86.
